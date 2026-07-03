@@ -1,0 +1,339 @@
+2026-05-25 10:55:04,411 [ORCHESTRATOR] Phase 1 start run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06
+2026-05-25 10:55:04,411 [ORCHESTRATOR] Running profiler
+2026-05-25 10:55:07,740 [PROFILER] Starting run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06 files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\landing\\sales_data.csv']
+2026-05-25 10:55:11,725 [PROFILER] Profile saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\profiles\profile_combined_20260525_105511.json
+2026-05-25 10:55:12,273 [PROFILER] Profile saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\profiles\profile_combined_20260525_105512.json
+2026-05-25 10:55:12,578 [PROFILER] Done -> C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\profiles\\profile_combined_20260525_105512.json
+2026-05-25 10:55:12,580 [ORCHESTRATOR] Profiler done -> C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\profiles\\profile_combined_20260525_105512.json
+2026-05-25 10:55:12,581 [ORCHESTRATOR] Generating Bronze STTM
+2026-05-25 10:55:12,628 [STTM] Starting BRONZE STTM for run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06
+2026-05-25 10:55:15,960 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:55:16,718 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:55:17,440 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:55:18,546 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:55:37,674 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:56:00,947 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:56:28,308 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:56:56,549 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:57:28,773 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:58:05,048 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:58:43,618 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 10:59:25,130 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 11:00:10,500 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 11:00:59,068 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 11:01:50,620 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 11:01:50,756 [STTM] Agent failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpavkpq8ea08gqzkjet50616` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97884, Requested 10940. Please try again in 2h7m3.936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}. Generating fallback STTM.
+2026-05-25 11:01:50,761 [STTM] Fallback BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv (5 rows)
+2026-05-25 11:01:50,762 [ORCHESTRATOR] Bronze STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_93bfed71.csv
+2026-05-25 11:02:04,701 [ORCHESTRATOR] Phase 2 start run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06
+2026-05-25 11:02:04,701 [ORCHESTRATOR] Running Bronze execution
+2026-05-25 11:02:04,741 [BRONZE] Starting run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\landing\\sales_data.csv']
+2026-05-25 11:02:05,341 [BRONZE] sales_data.csv -> sales_data_bronze.parquet (3 rows x 5 cols)
+2026-05-25 11:02:05,344 [BRONZE] Done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet']
+2026-05-25 11:02:05,345 [ORCHESTRATOR] Bronze execution done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet']
+2026-05-25 11:02:05,346 [ORCHESTRATOR] Generating Silver STTM
+2026-05-25 11:02:05,347 [STTM] Starting SILVER STTM for run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06
+2026-05-25 11:02:08,570 [STTM] SILVER STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_silver_93bfed71.csv (6 rows)
+2026-05-25 11:02:09,525 [STTM] Agent failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpavkpq8ea08gqzkjet50616` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99347, Requested 2128. Please try again in 21m14.399999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}. Generating fallback STTM.
+2026-05-25 11:02:09,533 [STTM] Fallback SILVER STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_silver_93bfed71.csv (7 rows)
+2026-05-25 11:02:09,535 [ORCHESTRATOR] Silver STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_silver_93bfed71.csv
+2026-05-25 11:02:22,219 [ORCHESTRATOR] Phase 3 start run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06
+2026-05-25 11:02:22,219 [ORCHESTRATOR] Running Silver execution
+2026-05-25 11:02:22,277 [SILVER] Starting run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet']
+2026-05-25 11:02:22,326 [SILVER] sales_data_bronze.parquet -> sales_data_silver.parquet (3 rows x 6 cols)
+2026-05-25 11:02:22,329 [SILVER] Done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet']
+2026-05-25 11:02:22,330 [ORCHESTRATOR] Silver execution done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet']
+2026-05-25 11:02:22,330 [ORCHESTRATOR] Generating Gold STTM
+2026-05-25 11:02:22,331 [STTM] Starting GOLD STTM for run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06
+2026-05-25 11:02:24,560 [STTM] Agent failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpavkpq8ea08gqzkjet50616` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99330, Requested 1379. Please try again in 10m12.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}. Generating fallback STTM.
+2026-05-25 11:02:24,596 [STTM] Fallback GOLD STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_gold_93bfed71.csv (7 rows)
+2026-05-25 11:02:24,598 [ORCHESTRATOR] Gold STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_gold_93bfed71.csv
+2026-05-25 11:02:29,799 [ORCHESTRATOR] Phase 4 start run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06
+2026-05-25 11:02:29,800 [ORCHESTRATOR] Running Gold execution
+2026-05-25 11:02:29,844 [GOLD] Starting run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet']
+2026-05-25 11:02:29,856 [GOLD] Loaded Silver table 'sales_data_silver': (3, 6)
+2026-05-25 11:02:29,860 [GOLD] Building target table 'gold_table' (7 rules)
+2026-05-25 11:02:29,869 [GOLD] Created 'gold_table': 3 rows x 7 cols
+2026-05-25 11:02:29,873 [GOLD] Done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\gold_layer\\gold_table.parquet']
+2026-05-25 11:02:29,874 [ORCHESTRATOR] Gold execution done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\gold_layer\\gold_table.parquet']
+2026-05-25 11:02:29,874 [ORCHESTRATOR] Running reporter
+2026-05-25 11:02:30,510 [REPORTER] Starting run_id=93bfed71-5935-47ca-83a0-65b3c5c12a06, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\gold_layer\\gold_table.parquet']
+2026-05-25 11:02:32,766 [REPORTER] Agent failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpavkpq8ea08gqzkjet50616` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99320, Requested 1411. Please try again in 10m31.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}. Using fallback report.
+2026-05-25 11:02:32,813 [REPORTER] Fallback report saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\reports\report_93bfed71.html
+2026-05-25 11:02:32,814 [ORCHESTRATOR] Reporter done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\reports\report_93bfed71.html
+2026-05-25 11:07:30,293 [ORCHESTRATOR] Phase 1 start run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9
+2026-05-25 11:07:30,293 [ORCHESTRATOR] Running profiler
+2026-05-25 11:07:31,985 [PROFILER] Starting run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9 files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\landing\\sales_data.csv']
+2026-05-25 11:07:35,216 [PROFILER] Profile saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\profiles\profile_combined_20260525_110735.json
+2026-05-25 11:07:35,869 [PROFILER] Done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\profiles\profile_combined_20260525_110735.json
+2026-05-25 11:07:35,871 [ORCHESTRATOR] Profiler done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\profiles\profile_combined_20260525_110735.json
+2026-05-25 11:07:35,871 [ORCHESTRATOR] Generating Bronze STTM
+2026-05-25 11:07:35,888 [STTM] Starting BRONZE STTM for run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9
+2026-05-25 11:07:39,297 [STTM] BRONZE STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_a2d80a6a.csv (7 rows)
+2026-05-25 11:07:39,703 [STTM] BRONZE STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_a2d80a6a.csv
+2026-05-25 11:07:39,704 [ORCHESTRATOR] Bronze STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_bronze_a2d80a6a.csv
+2026-05-25 11:07:46,414 [ORCHESTRATOR] Phase 2 start run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9
+2026-05-25 11:07:46,414 [ORCHESTRATOR] Running Bronze execution
+2026-05-25 11:07:46,424 [BRONZE] Starting run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\landing\\sales_data.csv']
+2026-05-25 11:07:46,487 [BRONZE] sales_data.csv -> sales_data_bronze.parquet (3 rows x 5 cols)
+2026-05-25 11:07:46,490 [BRONZE] Done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet']
+2026-05-25 11:07:46,491 [ORCHESTRATOR] Bronze execution done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet']
+2026-05-25 11:07:46,491 [ORCHESTRATOR] Generating Silver STTM
+2026-05-25 11:07:46,493 [STTM] Starting SILVER STTM for run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9
+2026-05-25 11:07:50,038 [STTM] SILVER STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_silver_a2d80a6a.csv (10 rows)
+2026-05-25 11:07:57,602 [STTM] SILVER STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_silver_a2d80a6a.csv
+2026-05-25 11:07:57,604 [ORCHESTRATOR] Silver STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_silver_a2d80a6a.csv
+2026-05-25 11:08:06,018 [ORCHESTRATOR] Phase 3 start run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9
+2026-05-25 11:08:06,019 [ORCHESTRATOR] Running Silver execution
+2026-05-25 11:08:06,036 [SILVER] Starting run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet']
+2026-05-25 11:08:06,075 [SILVER] sales_data_bronze.parquet -> sales_data_silver.parquet (3 rows x 3 cols)
+2026-05-25 11:08:06,079 [SILVER] Done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet']
+2026-05-25 11:08:06,081 [ORCHESTRATOR] Silver execution done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet']
+2026-05-25 11:08:06,081 [ORCHESTRATOR] Generating Gold STTM
+2026-05-25 11:08:06,083 [STTM] Starting GOLD STTM for run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9
+2026-05-25 11:08:11,479 [STTM] GOLD STTM saved -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_gold_a2d80a6a.csv (21 rows)
+2026-05-25 11:08:35,836 [STTM] GOLD STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_gold_a2d80a6a.csv
+2026-05-25 11:08:35,837 [ORCHESTRATOR] Gold STTM done -> C:\Users\vvishaleravachi\Downloads\IDAMP\IDAMP\data\sttm\sttm_gold_a2d80a6a.csv
+2026-05-25 11:08:43,638 [ORCHESTRATOR] Phase 4 start run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9
+2026-05-25 11:08:43,639 [ORCHESTRATOR] Running Gold execution
+2026-05-25 11:08:43,652 [GOLD] Starting run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet']
+2026-05-25 11:08:43,669 [GOLD] Loaded Silver table 'sales_data_silver': (3, 3)
+2026-05-25 11:08:43,671 [GOLD] Building target table 'sales_data_gold' (21 rules)
+2026-05-25 11:08:43,695 [GOLD] Created 'sales_data_gold': 3 rows x 4 cols
+2026-05-25 11:08:43,699 [GOLD] Done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\gold_layer\\sales_data_gold.parquet']
+2026-05-25 11:08:43,700 [ORCHESTRATOR] Gold execution done -> ['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\gold_layer\\sales_data_gold.parquet']
+2026-05-25 11:08:43,700 [ORCHESTRATOR] Running reporter
+2026-05-25 11:08:43,863 [REPORTER] Starting run_id=a2d80a6a-0fc1-4c32-a6a8-8340cec6a8a9, files=['C:\\Users\\vvishaleravachi\\Downloads\\IDAMP\\IDAMP\\data\\gold_layer\\sales_data_gold.parquet']
+2026-06-02 02:12:21,532 [ORCHESTRATOR] Phase 1 start run_id=fc28f425-c8e2-4af7-beba-3672de4da5c7
+2026-06-02 02:12:21,533 [ORCHESTRATOR] Running profiler
+2026-06-02 02:12:22,425 [ORCHESTRATOR] Phase 1 FAILED: No module named 'langgraph'
+2026-06-02 02:13:01,565 [ORCHESTRATOR] Phase 1 start run_id=8aeb14c2-9b6b-4cb0-a5ec-510e3adf3e8d
+2026-06-02 02:13:01,565 [ORCHESTRATOR] Running profiler
+2026-06-02 02:13:01,573 [ORCHESTRATOR] Phase 1 FAILED: No module named 'langgraph'
+2026-06-02 02:16:14,770 [ORCHESTRATOR] Phase 1 start run_id=17d05209-f32c-454a-bb28-7d34877d182e
+2026-06-02 02:16:14,771 [ORCHESTRATOR] Running profiler
+2026-06-02 02:16:15,215 [PROFILER] Starting run_id=17d05209-f32c-454a-bb28-7d34877d182e files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\stores.csv', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\sales_data.csv', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\products.csv']
+2026-06-02 02:16:15,226 [ORCHESTRATOR] Phase 1 FAILED: No module named 'langchain_groq'
+2026-06-02 02:18:38,717 [ORCHESTRATOR] Phase 1 start run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:18:38,717 [ORCHESTRATOR] Running profiler
+2026-06-02 02:18:38,720 [PROFILER] Starting run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3 files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\stores.csv', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\sales_data.csv', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\products.csv']
+2026-06-02 02:18:41,434 [PROFILER] Profile saved -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\profiles\profile_combined_20260602_021841.json
+2026-06-02 02:18:41,921 [PROFILER] Done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\profiles\profile_combined_20260602_021841.json
+2026-06-02 02:18:41,923 [ORCHESTRATOR] Profiler done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\profiles\profile_combined_20260602_021841.json
+2026-06-02 02:18:41,923 [ORCHESTRATOR] Generating Bronze STTM
+2026-06-02 02:18:41,983 [STTM] Starting BRONZE STTM for run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:18:44,324 [STTM] BRONZE STTM saved -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_bronze_53af9e73.csv (6 rows)
+2026-06-02 02:19:14,118 [STTM] BRONZE STTM done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_bronze_53af9e73.csv
+2026-06-02 02:19:14,120 [ORCHESTRATOR] Bronze STTM done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_bronze_53af9e73.csv
+2026-06-02 02:20:12,204 [ORCHESTRATOR] Phase 2 start run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:20:12,205 [ORCHESTRATOR] Running Bronze execution
+2026-06-02 02:20:12,256 [BRONZE] Starting run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3, files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\stores.csv', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\sales_data.csv', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\landing\\products.csv']
+2026-06-02 02:20:12,335 [BRONZE] stores.csv -> stores_bronze.parquet (10 rows x 7 cols)
+2026-06-02 02:20:12,355 [BRONZE] sales_data.csv -> sales_data_bronze.parquet (186 rows x 13 cols)
+2026-06-02 02:20:12,373 [BRONZE] products.csv -> products_bronze.parquet (20 rows x 6 cols)
+2026-06-02 02:20:12,377 [BRONZE] Done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\stores_bronze.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\products_bronze.parquet']
+2026-06-02 02:20:12,379 [ORCHESTRATOR] Bronze execution done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\stores_bronze.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\products_bronze.parquet']
+2026-06-02 02:20:12,380 [ORCHESTRATOR] Generating Silver STTM
+2026-06-02 02:20:12,382 [STTM] Starting SILVER STTM for run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:20:16,366 [STTM] SILVER STTM saved -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_silver_53af9e73.csv (17 rows)
+2026-06-02 02:20:17,039 [STTM] SILVER STTM done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_silver_53af9e73.csv
+2026-06-02 02:20:17,041 [ORCHESTRATOR] Silver STTM done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_silver_53af9e73.csv
+2026-06-02 02:20:36,117 [ORCHESTRATOR] Phase 3 start run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:20:36,117 [ORCHESTRATOR] Running Silver execution
+2026-06-02 02:20:36,171 [SILVER] Starting run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3, files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\stores_bronze.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\bronze_layer\\products_bronze.parquet']
+2026-06-02 02:20:36,201 [SILVER] stores_bronze.parquet -> stores_silver.parquet (10 rows x 5 cols)
+2026-06-02 02:20:36,226 [SILVER] sales_data_bronze.parquet -> sales_data_silver.parquet (174 rows x 4 cols)
+2026-06-02 02:20:36,250 [SILVER] products_bronze.parquet -> products_silver.parquet (20 rows x 5 cols)
+2026-06-02 02:20:36,255 [SILVER] Done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\stores_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\products_silver.parquet']
+2026-06-02 02:20:36,257 [ORCHESTRATOR] Silver execution done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\stores_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\products_silver.parquet']
+2026-06-02 02:20:36,257 [ORCHESTRATOR] Generating Gold STTM
+2026-06-02 02:20:36,259 [STTM] Starting GOLD STTM for run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:20:38,774 [STTM] GOLD STTM saved -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_gold_53af9e73.csv (7 rows)
+2026-06-02 02:21:00,266 [STTM] GOLD STTM done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_gold_53af9e73.csv
+2026-06-02 02:21:00,269 [ORCHESTRATOR] Gold STTM done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\data\sttm\sttm_gold_53af9e73.csv
+2026-06-02 02:22:09,928 [ORCHESTRATOR] Phase 4 start run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:22:09,928 [ORCHESTRATOR] Running Gold execution
+2026-06-02 02:22:09,983 [GOLD] Starting run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3, files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\stores_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\products_silver.parquet']
+2026-06-02 02:22:09,992 [GOLD] Loaded Silver table 'stores_silver': (10, 5)
+2026-06-02 02:22:09,995 [GOLD] Loaded Silver table 'sales_data_silver': (174, 4)
+2026-06-02 02:22:09,998 [GOLD] Loaded Silver table 'products_silver': (20, 5)
+2026-06-02 02:22:10,005 [GOLD] Building target table 'gold' (7 rules)
+2026-06-02 02:22:10,049 [GOLD] Created 'gold': 184 rows x 8 cols
+2026-06-02 02:22:10,054 [GOLD] Done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\gold_layer\\gold.parquet']
+2026-06-02 02:22:10,057 [ORCHESTRATOR] Gold execution done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\gold_layer\\gold.parquet']
+2026-06-02 02:22:10,057 [ORCHESTRATOR] Running reporter
+2026-06-02 02:22:10,076 [ORCHESTRATOR] Phase 4 FAILED: No module named 'duckdb'
+2026-06-02 02:23:59,950 [ORCHESTRATOR] Phase 4 start run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:23:59,950 [ORCHESTRATOR] Running Gold execution
+2026-06-02 02:23:59,952 [GOLD] Starting run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3, files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\stores_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\products_silver.parquet']
+2026-06-02 02:23:59,960 [GOLD] Loaded Silver table 'stores_silver': (10, 5)
+2026-06-02 02:23:59,963 [GOLD] Loaded Silver table 'sales_data_silver': (174, 4)
+2026-06-02 02:23:59,966 [GOLD] Loaded Silver table 'products_silver': (20, 5)
+2026-06-02 02:23:59,968 [GOLD] Building target table 'gold' (7 rules)
+2026-06-02 02:23:59,985 [GOLD] Created 'gold': 184 rows x 8 cols
+2026-06-02 02:23:59,990 [GOLD] Done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\gold_layer\\gold.parquet']
+2026-06-02 02:23:59,993 [ORCHESTRATOR] Gold execution done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\gold_layer\\gold.parquet']
+2026-06-02 02:23:59,993 [ORCHESTRATOR] Running reporter
+2026-06-02 02:24:00,125 [ORCHESTRATOR] Phase 4 FAILED: No module named 'plotly'
+2026-06-02 02:24:41,525 [ORCHESTRATOR] Phase 4 start run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3
+2026-06-02 02:24:41,526 [ORCHESTRATOR] Running Gold execution
+2026-06-02 02:24:41,528 [GOLD] Starting run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3, files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\stores_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\silver_layer\\products_silver.parquet']
+2026-06-02 02:24:41,537 [GOLD] Loaded Silver table 'stores_silver': (10, 5)
+2026-06-02 02:24:41,541 [GOLD] Loaded Silver table 'sales_data_silver': (174, 4)
+2026-06-02 02:24:41,546 [GOLD] Loaded Silver table 'products_silver': (20, 5)
+2026-06-02 02:24:41,548 [GOLD] Building target table 'gold' (7 rules)
+2026-06-02 02:24:41,573 [GOLD] Created 'gold': 184 rows x 8 cols
+2026-06-02 02:24:41,577 [GOLD] Done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\gold_layer\\gold.parquet']
+2026-06-02 02:24:41,580 [ORCHESTRATOR] Gold execution done -> ['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\gold_layer\\gold.parquet']
+2026-06-02 02:24:41,581 [ORCHESTRATOR] Running reporter
+2026-06-02 02:24:41,878 [REPORTER] Starting run_id=53af9e73-d66f-4718-9c0c-ad65a603fad3 gold_files=['C:\\Users\\swdora\\Desktop\\IDAMP\\IDAMP\\data\\gold_layer\\gold.parquet']
+2026-06-02 02:24:41,913 [REPORTER] Loaded tables: ['gold']
+2026-06-02 02:24:41,942 [REPORTER] Analysis complete
+2026-06-02 02:24:42,555 [REPORTER] Built 4 charts
+2026-06-02 02:24:42,573 [REPORTER] Report saved -> C:\Users\swdora\Desktop\IDAMP\IDAMP\reports\report_53af9e73.html
+2026-06-02 02:24:42,575 [ORCHESTRATOR] Reporter done -> C:\Users\swdora\Desktop\IDAMP\IDAMP\reports\report_53af9e73.html
+2026-06-03 13:45:42,650 [ORCHESTRATOR] Phase 1 start run_id=7ba42a35-5bb2-4aa4-985c-9285a6a47904
+2026-06-03 13:45:42,651 [ORCHESTRATOR] Running profiler
+2026-06-03 13:45:42,681 [ORCHESTRATOR] Phase 1 FAILED: No module named 'langchain_core'
+2026-06-03 13:50:05,158 [ORCHESTRATOR] Phase 1 start run_id=4337ab9f-f069-4161-a06b-a97d854b954f
+2026-06-03 13:50:05,158 [ORCHESTRATOR] Running profiler
+2026-06-03 13:50:12,074 [ORCHESTRATOR] Phase 1 FAILED: No module named 'langgraph'
+2026-06-03 13:50:48,020 [ORCHESTRATOR] Phase 1 start run_id=fad05e39-baa9-4991-9e83-41a1f34a344b
+2026-06-03 13:50:48,021 [ORCHESTRATOR] Running profiler
+2026-06-03 13:50:48,262 [ORCHESTRATOR] Phase 1 FAILED: _TypedDictMeta.__new__() got an unexpected keyword argument 'extra_items'
+2026-06-03 13:53:29,372 [ORCHESTRATOR] Phase 1 start run_id=195a46ed-7282-4360-8584-16e707003a68
+2026-06-03 13:53:29,372 [ORCHESTRATOR] Running profiler
+2026-06-03 13:53:29,451 [ORCHESTRATOR] Phase 1 FAILED: _TypedDictMeta.__new__() got an unexpected keyword argument 'extra_items'
+2026-06-03 13:54:33,773 [ORCHESTRATOR] Phase 1 start run_id=20002850-5634-4f63-be44-cc868b7257c6
+2026-06-03 13:54:33,773 [ORCHESTRATOR] Running profiler
+2026-06-03 13:54:33,807 [ORCHESTRATOR] Phase 1 FAILED: _TypedDictMeta.__new__() got an unexpected keyword argument 'extra_items'
+2026-06-03 14:10:14,207 [ORCHESTRATOR] Phase 1 start run_id=6e456975-245f-42c6-b791-341ce6510721
+2026-06-03 14:10:14,208 [ORCHESTRATOR] Running profiler
+2026-06-03 14:10:14,291 [ORCHESTRATOR] Phase 1 FAILED: _TypedDictMeta.__new__() got an unexpected keyword argument 'extra_items'
+2026-06-03 14:12:54,064 [ORCHESTRATOR] Phase 1 start run_id=3771372a-c04b-4b27-b364-77f7b66e92a5
+2026-06-03 14:12:54,065 [ORCHESTRATOR] Running profiler
+2026-06-03 14:13:01,797 [PROFILER] Starting run_id=3771372a-c04b-4b27-b364-77f7b66e92a5 files=['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\landing\\products.csv', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\landing\\sales_data.csv', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\landing\\stores.csv']
+2026-06-03 14:13:15,868 [PROFILER] Profile saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\profiles\profile_combined_20260603_141315.json
+2026-06-03 14:13:49,121 [PROFILER] Rate limit hit, retrying in 15s (attempt 1/4)
+2026-06-03 14:14:04,828 [PROFILER] Profile saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\profiles\profile_combined_20260603_141404.json
+2026-06-03 14:14:05,319 [PROFILER] Done -> C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\profiles\\profile_combined_20260603_141404.json
+2026-06-03 14:14:05,323 [ORCHESTRATOR] Profiler done -> C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\profiles\\profile_combined_20260603_141404.json
+2026-06-03 14:14:05,324 [ORCHESTRATOR] Generating Bronze STTM
+2026-06-03 14:14:05,434 [STTM] Starting BRONZE STTM for run_id=3771372a-c04b-4b27-b364-77f7b66e92a5
+2026-06-03 14:14:09,718 [STTM] BRONZE STTM saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_bronze_3771372a.csv (6 rows)
+2026-06-03 14:15:08,920 [STTM] Rate limit hit, retrying in 15s (attempt 1/4)
+2026-06-03 14:15:25,441 [STTM] BRONZE STTM saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_bronze_3771372a.csv (6 rows)
+2026-06-03 14:15:48,744 [STTM] BRONZE STTM done -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_bronze_3771372a.csv
+2026-06-03 14:15:48,747 [ORCHESTRATOR] Bronze STTM done -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_bronze_3771372a.csv
+2026-06-03 14:16:02,828 [ORCHESTRATOR] Phase 2 start run_id=3771372a-c04b-4b27-b364-77f7b66e92a5
+2026-06-03 14:16:02,828 [ORCHESTRATOR] Running Bronze execution
+2026-06-03 14:16:02,868 [BRONZE] Starting run_id=3771372a-c04b-4b27-b364-77f7b66e92a5, files=['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\landing\\products.csv', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\landing\\sales_data.csv', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\landing\\stores.csv']
+2026-06-03 14:16:03,442 [BRONZE] products.csv -> products_bronze.parquet (20 rows x 6 cols)
+2026-06-03 14:16:03,471 [BRONZE] sales_data.csv -> sales_data_bronze.parquet (186 rows x 13 cols)
+2026-06-03 14:16:03,495 [BRONZE] stores.csv -> stores_bronze.parquet (10 rows x 7 cols)
+2026-06-03 14:16:03,498 [BRONZE] Done -> ['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\products_bronze.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\stores_bronze.parquet']
+2026-06-03 14:16:03,500 [ORCHESTRATOR] Bronze execution done -> ['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\products_bronze.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\stores_bronze.parquet']
+2026-06-03 14:16:03,500 [ORCHESTRATOR] Generating Silver STTM
+2026-06-03 14:16:03,502 [STTM] Starting SILVER STTM for run_id=3771372a-c04b-4b27-b364-77f7b66e92a5
+2026-06-03 14:16:22,760 [STTM] Rate limit hit, retrying in 15s (attempt 1/4)
+2026-06-03 14:16:47,704 [STTM] SILVER STTM saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_silver_3771372a.csv (21 rows)
+2026-06-03 14:18:22,312 [STTM] Rate limit hit, retrying in 30s (attempt 2/4)
+2026-06-03 14:19:03,396 [STTM] SILVER STTM saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_silver_3771372a.csv (21 rows)
+2026-06-03 14:19:54,336 [STTM] SILVER STTM done -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_silver_3771372a.csv
+2026-06-03 14:19:54,339 [ORCHESTRATOR] Silver STTM done -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_silver_3771372a.csv
+2026-06-03 14:20:43,573 [ORCHESTRATOR] Phase 3 start run_id=3771372a-c04b-4b27-b364-77f7b66e92a5
+2026-06-03 14:20:43,574 [ORCHESTRATOR] Running Silver execution
+2026-06-03 14:20:43,625 [SILVER] Starting run_id=3771372a-c04b-4b27-b364-77f7b66e92a5, files=['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\products_bronze.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\bronze_layer\\stores_bronze.parquet']
+2026-06-03 14:20:43,679 [SILVER] products_bronze.parquet -> products_silver.parquet (20 rows x 5 cols)
+2026-06-03 14:20:43,713 [SILVER] sales_data_bronze.parquet -> sales_data_silver.parquet (174 rows x 5 cols)
+2026-06-03 14:20:43,738 [SILVER] stores_bronze.parquet -> stores_silver.parquet (10 rows x 5 cols)
+2026-06-03 14:20:43,743 [SILVER] Done -> ['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\products_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\stores_silver.parquet']
+2026-06-03 14:20:43,745 [ORCHESTRATOR] Silver execution done -> ['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\products_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\stores_silver.parquet']
+2026-06-03 14:20:43,745 [ORCHESTRATOR] Generating Gold STTM
+2026-06-03 14:20:43,747 [STTM] Starting GOLD STTM for run_id=3771372a-c04b-4b27-b364-77f7b66e92a5
+2026-06-03 14:20:47,739 [STTM] GOLD STTM saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_gold_3771372a.csv (10 rows)
+2026-06-03 14:20:59,521 [STTM] GOLD STTM done -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_gold_3771372a.csv
+2026-06-03 14:20:59,523 [ORCHESTRATOR] Gold STTM done -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\data\sttm\sttm_gold_3771372a.csv
+2026-06-03 14:56:41,492 [ORCHESTRATOR] Phase 4 start run_id=3771372a-c04b-4b27-b364-77f7b66e92a5
+2026-06-03 14:56:41,492 [ORCHESTRATOR] Running Gold execution
+2026-06-03 14:56:41,537 [GOLD] Starting run_id=3771372a-c04b-4b27-b364-77f7b66e92a5, files=['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\products_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\silver_layer\\stores_silver.parquet']
+2026-06-03 14:56:41,563 [GOLD] Loaded Silver table 'products_silver': (20, 5)
+2026-06-03 14:56:41,589 [GOLD] Loaded Silver table 'sales_data_silver': (174, 5)
+2026-06-03 14:56:41,614 [GOLD] Loaded Silver table 'stores_silver': (10, 5)
+2026-06-03 14:56:41,622 [GOLD] Building target table 'products_gold' (3 rules)
+2026-06-03 14:56:41,633 [GOLD] Created 'products_gold': 20 rows x 5 cols
+2026-06-03 14:56:41,634 [GOLD] Building target table 'sales_data_gold' (4 rules)
+2026-06-03 14:56:41,642 [GOLD] Created 'sales_data_gold': 174 rows x 6 cols
+2026-06-03 14:56:41,645 [GOLD] Building target table 'sales_data_silver' (1 rules)
+2026-06-03 14:56:41,654 [GOLD] Created 'sales_data_silver': 174 rows x 4 cols
+2026-06-03 14:56:41,655 [GOLD] Building target table 'stores_gold' (2 rules)
+2026-06-03 14:56:41,664 [GOLD] Created 'stores_gold': 10 rows x 6 cols
+2026-06-03 14:56:41,667 [GOLD] Done -> ['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\products_gold.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\sales_data_gold.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\sales_data_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\stores_gold.parquet']
+2026-06-03 14:56:41,669 [ORCHESTRATOR] Gold execution done -> ['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\products_gold.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\sales_data_gold.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\sales_data_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\stores_gold.parquet']
+2026-06-03 14:56:41,669 [ORCHESTRATOR] Running reporter
+2026-06-03 14:56:43,143 [REPORTER] Starting run_id=3771372a-c04b-4b27-b364-77f7b66e92a5 gold_files=['C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\products_gold.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\sales_data_gold.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\sales_data_silver.parquet', 'C:\\Users\\haresingh\\Desktop\\AccelerateAI\\AccelerateAI\\data\\gold_layer\\stores_gold.parquet']
+2026-06-03 14:56:43,252 [REPORTER] Loaded tables: ['products_gold', 'sales_data_gold', 'sales_data_silver', 'stores_gold']
+2026-06-03 14:56:43,312 [REPORTER] Analysis complete
+2026-06-03 14:56:47,983 [REPORTER] Built 16 charts
+2026-06-03 14:56:48,001 [REPORTER] Report saved -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\reports\report_3771372a.html
+2026-06-03 14:56:48,003 [ORCHESTRATOR] Reporter done -> C:\Users\haresingh\Desktop\AccelerateAI\AccelerateAI\reports\report_3771372a.html
+2026-07-03 13:20:34,466 [ORCHESTRATOR] Phase 1 start run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef
+2026-07-03 13:20:34,467 [ORCHESTRATOR] Running profiler
+2026-07-03 13:20:38,696 [PROFILER] Starting run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef files=['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\landing\\products.csv', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\landing\\sales_data.csv', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\landing\\stores.csv']
+2026-07-03 13:20:40,293 [PROFILER] Profile saved -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\profiles\profile_combined_20260703_132040.json
+2026-07-03 13:20:40,820 [PROFILER] Done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\profiles\profile_combined_20260703_132040.json
+2026-07-03 13:20:40,822 [ORCHESTRATOR] Profiler done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\profiles\profile_combined_20260703_132040.json
+2026-07-03 13:20:40,822 [ORCHESTRATOR] Generating Bronze STTM
+2026-07-03 13:20:40,863 [STTM] Starting BRONZE STTM for run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef
+2026-07-03 13:20:42,005 [STTM] BRONZE STTM saved -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_bronze_da3b1f0f.csv (12 rows)
+2026-07-03 13:21:16,713 [STTM] BRONZE STTM done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_bronze_da3b1f0f.csv
+2026-07-03 13:21:16,715 [ORCHESTRATOR] Bronze STTM done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_bronze_da3b1f0f.csv
+2026-07-03 13:21:29,529 [ORCHESTRATOR] Phase 2 start run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef
+2026-07-03 13:21:29,529 [ORCHESTRATOR] Running Bronze execution
+2026-07-03 13:21:29,602 [BRONZE] Starting run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef, files=['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\landing\\products.csv', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\landing\\sales_data.csv', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\landing\\stores.csv']
+2026-07-03 13:21:30,450 [BRONZE] products.csv -> products_bronze.parquet (20 rows x 6 cols)
+2026-07-03 13:21:30,479 [BRONZE] sales_data.csv -> sales_data_bronze.parquet (186 rows x 13 cols)
+2026-07-03 13:21:30,500 [BRONZE] stores.csv -> stores_bronze.parquet (10 rows x 7 cols)
+2026-07-03 13:21:30,503 [BRONZE] Done -> ['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\products_bronze.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\stores_bronze.parquet']
+2026-07-03 13:21:30,505 [ORCHESTRATOR] Bronze execution done -> ['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\products_bronze.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\stores_bronze.parquet']
+2026-07-03 13:21:30,505 [ORCHESTRATOR] Generating Silver STTM
+2026-07-03 13:21:30,506 [STTM] Starting SILVER STTM for run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef
+2026-07-03 13:21:35,029 [STTM] SILVER STTM saved -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_silver_da3b1f0f.csv (16 rows)
+2026-07-03 13:22:22,061 [STTM] SILVER STTM done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_silver_da3b1f0f.csv
+2026-07-03 13:22:22,062 [ORCHESTRATOR] Silver STTM done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_silver_da3b1f0f.csv
+2026-07-03 13:23:07,643 [ORCHESTRATOR] Phase 3 start run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef
+2026-07-03 13:23:07,643 [ORCHESTRATOR] Running Silver execution
+2026-07-03 13:23:07,716 [SILVER] Starting run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef, files=['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\products_bronze.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\sales_data_bronze.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\bronze_layer\\stores_bronze.parquet']
+2026-07-03 13:23:07,804 [SILVER] products_bronze.parquet -> products_silver.parquet (20 rows x 5 cols)
+2026-07-03 13:23:07,849 [SILVER] sales_data_bronze.parquet -> sales_data_silver.parquet (174 rows x 4 cols)
+2026-07-03 13:23:07,880 [SILVER] stores_bronze.parquet -> stores_silver.parquet (10 rows x 5 cols)
+2026-07-03 13:23:07,883 [SILVER] Done -> ['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\products_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\stores_silver.parquet']
+2026-07-03 13:23:07,885 [ORCHESTRATOR] Silver execution done -> ['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\products_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\stores_silver.parquet']
+2026-07-03 13:23:07,885 [ORCHESTRATOR] Generating Gold STTM
+2026-07-03 13:23:07,887 [STTM] Starting GOLD STTM for run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef
+2026-07-03 13:23:09,956 [STTM] GOLD STTM saved -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_gold_da3b1f0f.csv (28 rows)
+2026-07-03 13:23:21,711 [STTM] GOLD STTM done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_gold_da3b1f0f.csv
+2026-07-03 13:23:21,717 [ORCHESTRATOR] Gold STTM done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\data\sttm\sttm_gold_da3b1f0f.csv
+2026-07-03 13:23:42,205 [ORCHESTRATOR] Phase 4 start run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef
+2026-07-03 13:23:42,205 [ORCHESTRATOR] Running Gold execution
+2026-07-03 13:23:42,283 [GOLD] Starting run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef, files=['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\products_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\sales_data_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\silver_layer\\stores_silver.parquet']
+2026-07-03 13:23:42,306 [GOLD] Loaded Silver table 'products_silver': (20, 5)
+2026-07-03 13:23:42,315 [GOLD] Loaded Silver table 'sales_data_silver': (174, 4)
+2026-07-03 13:23:42,321 [GOLD] Loaded Silver table 'stores_silver': (10, 5)
+2026-07-03 13:23:42,332 [GOLD] Building target table 'products_gold' (7 rules)
+2026-07-03 13:23:42,346 [GOLD] Created 'products_gold': 20 rows x 6 cols
+2026-07-03 13:23:42,348 [GOLD] Building target table 'sales_data_gold' (16 rules)
+2026-07-03 13:23:42,363 [GOLD] Created 'sales_data_gold': 174 rows x 5 cols
+2026-07-03 13:23:42,365 [GOLD] Building target table 'sales_data_silver' (1 rules)
+2026-07-03 13:23:42,376 [GOLD] Created 'sales_data_silver': 174 rows x 4 cols
+2026-07-03 13:23:42,378 [GOLD] Building target table 'stores_gold' (4 rules)
+2026-07-03 13:23:42,390 [GOLD] Created 'stores_gold': 10 rows x 6 cols
+2026-07-03 13:23:42,393 [GOLD] Done -> ['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\products_gold.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\sales_data_gold.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\sales_data_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\stores_gold.parquet']
+2026-07-03 13:23:42,395 [ORCHESTRATOR] Gold execution done -> ['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\products_gold.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\sales_data_gold.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\sales_data_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\stores_gold.parquet']
+2026-07-03 13:23:42,395 [ORCHESTRATOR] Running reporter
+2026-07-03 13:23:43,434 [REPORTER] Starting run_id=da3b1f0f-1451-4039-8c9a-4f09a62c9aef gold_files=['C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\products_gold.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\sales_data_gold.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\sales_data_silver.parquet', 'C:\\Users\\kmatolia\\Documents\\AccelerateAI\\medallion-pipeline\\data\\gold_layer\\stores_gold.parquet']
+2026-07-03 13:23:43,604 [REPORTER] Loaded tables: ['products_gold', 'sales_data_gold', 'sales_data_silver', 'stores_gold']
+2026-07-03 13:23:43,695 [REPORTER] Analysis complete
+2026-07-03 13:23:45,959 [REPORTER] Built 16 charts
+2026-07-03 13:23:45,971 [REPORTER] Report saved -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\reports\report_da3b1f0f.html
+2026-07-03 13:23:45,972 [ORCHESTRATOR] Reporter done -> C:\Users\kmatolia\Documents\AccelerateAI\medallion-pipeline\reports\report_da3b1f0f.html

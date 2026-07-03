@@ -1,0 +1,395 @@
+{
+  "summary": {
+    "business_intent": "Which products and stores contributed most to revenue and returns this quarter, and what three prioritized actions should we take to increase net margin?",
+    "tables_analyzed": [
+      "products_gold",
+      "sales_data_gold",
+      "sales_data_silver",
+      "stores_gold"
+    ],
+    "summary_lines": [
+      "Table: products_gold | Rows: 20",
+      "  Top product_id: P020 with pk_gold_id=20.00",
+      "  Numeric columns analyzed: 6 columns",
+      "Table: sales_data_gold | Rows: 174",
+      "  Top product_id: P005 with pk_gold_id=1259.00",
+      "  Numeric columns analyzed: 5 columns",
+      "Table: sales_data_silver | Rows: 174",
+      "  Top _load_timestamp: 2026-07-03T07:51:30.464162+00:00 with pk_gold_id=15225.00",
+      "  Numeric columns analyzed: 4 columns",
+      "Table: stores_gold | Rows: 10",
+      "  Top store_id: S10 with pk_gold_id=10.00",
+      "  Numeric columns analyzed: 6 columns"
+    ]
+  },
+  "analysis": {
+    "products_gold": {
+      "schema": [
+        {
+          "column_name": "pk_gold_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "pk_products_silver_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "product_id",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "product_name",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_load_timestamp",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_source_file",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ],
+      "row_count": 20,
+      "top_groups": [
+        {
+          "product_id": "P020",
+          "total": 20.0
+        },
+        {
+          "product_id": "P019",
+          "total": 19.0
+        },
+        {
+          "product_id": "P018",
+          "total": 18.0
+        },
+        {
+          "product_id": "P017",
+          "total": 17.0
+        },
+        {
+          "product_id": "P016",
+          "total": 16.0
+        },
+        {
+          "product_id": "P015",
+          "total": 15.0
+        },
+        {
+          "product_id": "P014",
+          "total": 14.0
+        },
+        {
+          "product_id": "P013",
+          "total": 13.0
+        },
+        {
+          "product_id": "P012",
+          "total": 12.0
+        },
+        {
+          "product_id": "P011",
+          "total": 11.0
+        },
+        {
+          "product_id": "P010",
+          "total": 10.0
+        },
+        {
+          "product_id": "P009",
+          "total": 9.0
+        },
+        {
+          "product_id": "P008",
+          "total": 8.0
+        },
+        {
+          "product_id": "P007",
+          "total": 7.0
+        },
+        {
+          "product_id": "P006",
+          "total": 6.0
+        }
+      ],
+      "group_col": "product_id",
+      "value_col": "pk_gold_id"
+    },
+    "sales_data_gold": {
+      "schema": [
+        {
+          "column_name": "pk_gold_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "pk_sales_data_silver_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "product_id",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_load_timestamp",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_source_file",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ],
+      "row_count": 174,
+      "top_groups": [
+        {
+          "product_id": "P005",
+          "total": 1259.0
+        },
+        {
+          "product_id": "P014",
+          "total": 1164.0
+        },
+        {
+          "product_id": "P008",
+          "total": 1135.0
+        },
+        {
+          "product_id": "P018",
+          "total": 1116.0
+        },
+        {
+          "product_id": "P020",
+          "total": 995.0
+        },
+        {
+          "product_id": "P007",
+          "total": 961.0
+        },
+        {
+          "product_id": "P013",
+          "total": 867.0
+        },
+        {
+          "product_id": "P016",
+          "total": 851.0
+        },
+        {
+          "product_id": "P004",
+          "total": 842.0
+        },
+        {
+          "product_id": "P002",
+          "total": 790.0
+        },
+        {
+          "product_id": "P003",
+          "total": 766.0
+        },
+        {
+          "product_id": "P017",
+          "total": 675.0
+        },
+        {
+          "product_id": "P006",
+          "total": 644.0
+        },
+        {
+          "product_id": "P019",
+          "total": 617.0
+        },
+        {
+          "product_id": "P001",
+          "total": 555.0
+        }
+      ],
+      "group_col": "product_id",
+      "value_col": "pk_gold_id"
+    },
+    "sales_data_silver": {
+      "schema": [
+        {
+          "column_name": "pk_gold_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "pk_sales_data_silver_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_load_timestamp",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_source_file",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ],
+      "row_count": 174,
+      "top_groups": [
+        {
+          "_load_timestamp": "2026-07-03T07:51:30.464162+00:00",
+          "total": 15225.0
+        }
+      ],
+      "group_col": "_load_timestamp",
+      "value_col": "pk_gold_id"
+    },
+    "stores_gold": {
+      "schema": [
+        {
+          "column_name": "pk_gold_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "pk_stores_silver_id",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "store_id",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "store_description",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_load_timestamp",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "_source_file",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ],
+      "row_count": 10,
+      "top_groups": [
+        {
+          "store_id": "S10",
+          "total": 10.0
+        },
+        {
+          "store_id": "S09",
+          "total": 9.0
+        },
+        {
+          "store_id": "S08",
+          "total": 8.0
+        },
+        {
+          "store_id": "S07",
+          "total": 7.0
+        },
+        {
+          "store_id": "S06",
+          "total": 6.0
+        },
+        {
+          "store_id": "S05",
+          "total": 5.0
+        },
+        {
+          "store_id": "S04",
+          "total": 4.0
+        },
+        {
+          "store_id": "S03",
+          "total": 3.0
+        },
+        {
+          "store_id": "S02",
+          "total": 2.0
+        },
+        {
+          "store_id": "S01",
+          "total": 1.0
+        }
+      ],
+      "group_col": "store_id",
+      "value_col": "pk_gold_id"
+    }
+  }
+}

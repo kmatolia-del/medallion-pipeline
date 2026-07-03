@@ -1,0 +1,29 @@
+source_table,source_column,target_table,target_column,transformation_type,transformation_logic
+products_silver,,products_gold,pk_gold_id,surrogate_key,Auto-generated sequential surrogate primary key starting from 1
+sales_data_silver,product_id,sales_data_gold,product_id,passthrough,
+sales_data_silver,store_id,sales_data_silver,store_id,join,Inner join on store_id
+sales_data_silver,product_id,sales_data_gold,product_id,passthrough,
+sales_data_silver,store_id,sales_data_gold,store_id,passthrough,
+sales_data_silver,sales_amount,sales_data_gold,sales_amount,passthrough,
+sales_data_silver,returns_amount,sales_data_gold,returns_amount,passthrough,
+sales_data_silver,sales_date,sales_data_gold,sales_date,date_format,YYYY-MM
+sales_data_silver,sales_amount,sales_data_gold,total_revenue,aggregate,sum
+sales_data_silver,returns_amount,sales_data_gold,total_returns,aggregate,sum
+sales_data_silver,sales_amount,sales_data_gold,avg_revenue_per_product,aggregate,avg
+sales_data_silver,returns_amount,sales_data_gold,avg_returns_per_product,aggregate,avg
+sales_data_silver,sales_amount,sales_data_gold,max_revenue_per_product,aggregate,max
+sales_data_silver,returns_amount,sales_data_gold,max_returns_per_product,aggregate,max
+sales_data_silver,sales_amount,sales_data_gold,min_revenue_per_product,aggregate,min
+sales_data_silver,returns_amount,sales_data_gold,min_returns_per_product,aggregate,min
+sales_data_silver,store_id,sales_data_gold,store_id,passthrough,
+sales_data_silver,store_id,sales_data_gold,store_name,rename,store_name
+stores_silver,,stores_gold,pk_gold_id,surrogate_key,Auto-generated sequential surrogate primary key starting from 1
+stores_silver,store_id,stores_gold,store_id,passthrough,
+stores_silver,store_name,stores_gold,store_name,passthrough,
+stores_silver,store_name,stores_gold,store_description,rename,store_description
+products_silver,,products_gold,pk_gold_id,surrogate_key,Auto-generated sequential surrogate primary key starting from 1
+products_silver,product_id,products_gold,product_id,passthrough,
+products_silver,product_name,products_gold,product_name,passthrough,
+products_silver,product_description,products_gold,product_description,passthrough,
+products_silver,product_category,products_gold,product_category,passthrough,
+products_silver,product_category,products_gold,product_category_name,rename,product_category_name
